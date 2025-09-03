@@ -48,7 +48,6 @@ def index():
             "email": "bbhaktigoyal@gmail.com",
             "linkedin": "https://www.linkedin.com/in/bhakti-goyal-33921b26b/",
             "github": "https://github.com/Bhakti-Goyal"
-            "portfolio": "https://portfolio.onrender.com"
         }
     }
     return render_template("index.html", data=data)
