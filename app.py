@@ -10,8 +10,8 @@ def index():
         "projects": [
             {"name": "Portfolio Website", "desc": "Personal portfolio ", "link": "https://profile-1ojf.onrender.com/"},
             {"name": "Machine Learning Project", "desc": "Mobile Price Range Prediction Model ", "link": "https://github.com/yourgithub/ml-project"},
-            {"name": "Portfolio Website", "desc": "Basic visitor entry system", "link": "https://github.com/Bhakti-Goyal/visitor-entry-system"},
-            {"name": "Portfolio Website", "desc": "Food Traceability System", "link": "https://food-traceability-1.onrender.com"},
+            {"name": "Visitor entry system", "desc": "Basic visitor entry system", "link": "https://github.com/Bhakti-Goyal/visitor-entry-system"},
+            {"name": "Food Traceability Systeme", "desc": "The project is a cloud-deployable web application designed to streamline the tracking", "link": "https://food-traceability-1.onrender.com"},
         ],
 
         "education": [
