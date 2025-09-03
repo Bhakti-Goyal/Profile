@@ -8,7 +8,7 @@ def index():
         "overview": "Software Engineer specializing in Python, Flask, and Machine Learning, with hands-on experience in full-stack development and data analytics.",
 
         "projects": [
-            {"name": "Portfolio Website", "desc": "Personal portfolio ", "link": "https://github.com/yourgithub/portfolio"},
+            {"name": "Portfolio Website", "desc": "Personal portfolio ", "link": "https://profile-1ojf.onrender.com/"},
             {"name": "Machine Learning Project", "desc": "Mobile Price Range Prediction Model ", "link": "https://github.com/yourgithub/ml-project"},
             {"name": "Portfolio Website", "desc": "Basic visitor entry system", "link": "https://github.com/Bhakti-Goyal/visitor-entry-system"},
             {"name": "Portfolio Website", "desc": "Food Traceability System", "link": "https://food-traceability-1.onrender.com"},
@@ -48,6 +48,7 @@ def index():
             "email": "bbhaktigoyal@gmail.com",
             "linkedin": "https://www.linkedin.com/in/bhakti-goyal-33921b26b/",
             "github": "https://github.com/Bhakti-Goyal"
+            "portfolio": "https://portfolio.onrender.com"
         }
     }
     return render_template("index.html", data=data)
