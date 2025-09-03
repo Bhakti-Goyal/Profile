@@ -1,0 +1,58 @@
+/* Floating glassmorphism card */
+.card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border-radius: 1.25rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+}
+
+/* Sidebar styling */
+aside nav a {
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.75rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+aside nav a:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateX(6px);
+}
+
+/* Smooth section headers */
+section h2 {
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+section h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 60px;
+  background: linear-gradient(to right, #14b8a6, #3b82f6);
+  border-radius: 2px;
+}
+
+/* Resume button glow */
+aside a.mt-10 {
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
+}
+
+aside a.mt-10:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
+  transform: scale(1.05);
+}
+
+/* Profile image border glow */
+aside img, section#overview img {
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.8);
+}
